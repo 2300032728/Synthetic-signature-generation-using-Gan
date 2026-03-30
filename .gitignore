@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Model files
+*.pt
+*.pth
+*.h5
+
+# Generated / output folders
+checkpoints/
+samples/
+preprocessed/
+deployment/generated/
+deployment/generated_signatures/
+
+# Dataset folders
+dataset/
+data/
+medical_images/
+preprocessed_images/
+final_outputs/

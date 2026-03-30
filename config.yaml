@@ -1,0 +1,9 @@
+data_path: signature/sign_data/train
+image_size: 128
+channels: 1
+batch_size: 8
+shuffle: true
+
+save_preprocessed: true
+preprocessed_output_dir: preprocessed
+max_preprocessed_images: 50
